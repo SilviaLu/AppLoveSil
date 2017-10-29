@@ -1,77 +1,196 @@
-header{
-        position: relative;
-        overflow: auto;
-}
-ul li{
-    display: inline;
-    list-style: none;
-    right: 10px;
-    color: inherit;
-}
-nav {
-    position: absolute; 
-    left: 0px;
-    top: 50%;
-    transform: translateY(-100%);
-    width: 100%;
-}
-
-li a{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Saira Extra Condensed', sans-serif;
-    font-family: 'Pragati Narrow', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    margin: 10px;
-    font-size: 17px;
-    color: black;
-    left: 10px;
+*{
+    margin: 0;
+    padding: 0;
+   
 }
 .text-uppercase {
     text-transform: uppercase;
 }
 
-.logo-header {
+a {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 900;
+
+}
+
+.logo-header{
+    display: inline-block;
     float: right;
+
 }
 
-#work{
-    outline: 1px solid green;
-    text-align: center;
+header{
+    /*outline: 1px solid red;*/
+    background-color: white;
+}
+nav{
+    overflow: auto;
+}
+.text-list {
+    display: inline;
+    padding: 10px;
+}
+.list{
+    position: relative;
+    top: 30px;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
 }
 
-img  {
-    width: 70px;
-    height: 70px;
-}
-figure{
-    margin-top: 5px; 
-}
-div{
-    width: 100%;
-    height: 100%;
-}
-.bg-home{
-    position: absolute;
-    background: url(../assets/images/bg_home.jpg);
-    text-align: center; 
-    color: yellow;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
-h1{
-    font-size: 50px;
-}
 
-.btn {
-    background-color: mediumseagreen;
-    border: none;
-    color: #ffffff;
-    font-family: inherit;
-    padding: 15px;
+.container{
+    /*outline: 1px solid red;*/
+    width: 1000px;
+    margin: auto;
     
 }
-  
+/*a{
+   font-weight: 900; 
+}*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+}
+section{
+    text-align: center; 
+      
+   
+}
+.background{
+     background-image: url(../assets/images/bg_home.jpg);
+     background-repeat: no-repeat; 
+     height: 530px;
+     background-size:100%; 
+}
+.background .container{
+    height: 100%;
+    
+}
+.text-uppercase.h2{
+         
+    padding: 30px; 
+    font-size: 24px;
+    color: white;
+}
+
+.text-uppercase.h1{
+    
+    font-weight: 900;; 
+    font-size: 55px;
+    color: white;
+    padding: 30px 0px 0px 0px;
+    margin-top: 25px; 
+}
+.text-uppercase.p {
+    color: white;
+    padding: 0px 0px 50px 0px;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+button{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: mediumseagreen;
+    padding: 15px;
+   
+}
+.btn{
+    background-color: mediumseagreen;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top:20px;
+
+}
+.text{
+    color:black;
+}
+div{
+    overflow: auto;
+}
+.service{
+background-color:salmon; 
+}
+
+.subtitle{
+    float: auto;
+    font-size: 33px;
+    color: white;
+    padding: 70px;
+    letter-spacing: 3px;
+}
+
+.mt-0{
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+
+.text-subtitle{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+.image{
+    display: inline-block;
+    padding: 60px;
+}
+.subimagen{
+    color: white;
+    letter-spacing: 0.5px;
+}
+.mt-1{
+    font-size: 13px;
+}
+.work{
+    float: auto;
+    font-size: 25px;
+    color: black;
+    padding: 70px 70px 0px 70px;
+    letter-spacing: 1px;
+}
+.mt-2{
+    font-size: 15px;
+    padding: 40px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+.projets{
+    /*outline: 1px solid red;*/
+    float: auto;
+    
+}
+.desktop{
+    width:950px;
+    height:950px;
+}
+.mt-3{
+    column-count: 3;
+    width:300px;
+    height: 250px;
+}
+.mt-4{
+    display: inline-block;
+    padding: 0px 17px 10px 50px;
+}
+.fig{
+    padding: 20px 0px 50px;
+    font-weight: bold;
+}
+.floor{
+    background: rgb(55,59,71);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
